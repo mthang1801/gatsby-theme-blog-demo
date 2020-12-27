@@ -1,0 +1,25 @@
+import React from 'react'
+import {Link} from "gatsby"
+const Blogs = () => {
+  return (
+    <div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam laborum velit, doloremque, at porro autem rerum dignissimos aperiam officiis exercitationem totam temporibus ab quas atque omnis aliquam dolore ratione incidunt dolorem. Quis minima praesentium facilis officiis, exercitationem delectus omnis placeat, cupiditate ex repellendus iste eius perferendis quibusdam ad eaque animi reiciendis voluptate? Cupiditate sequi atque minima a. Reprehenderit obcaecati fugiat molestias veritatis, dicta vel, vitae natus impedit sed corporis consectetur aspernatur nostrum dolorem? Nisi illo modi a necessitatibus porro impedit mollitia tempora odit minus voluptatibus accusamus sint ad, rerum et placeat dicta perspiciatis! Fugiat eaque similique rem voluptate! Et, itaque.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam laborum velit, doloremque, at porro autem rerum dignissimos aperiam officiis exercitationem totam temporibus ab quas atque omnis aliquam dolore ratione incidunt dolorem. Quis minima praesentium facilis officiis, exercitationem delectus omnis placeat, cupiditate ex repellendus iste eius perferendis quibusdam ad eaque animi reiciendis voluptate? Cupiditate sequi atque minima a. Reprehenderit obcaecati fugiat molestias veritatis, dicta vel, vitae natus impedit sed corporis consectetur aspernatur nostrum dolorem? Nisi illo modi a necessitatibus porro impedit mollitia tempora odit minus voluptatibus accusamus sint ad, rerum et placeat dicta perspiciatis! Fugiat eaque similique rem voluptate! Et, itaque.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam laborum velit, doloremque, at porro autem rerum dignissimos aperiam officiis exercitationem totam temporibus ab quas atque omnis aliquam dolore ratione incidunt dolorem. Quis minima praesentium facilis officiis, exercitationem delectus omnis placeat, cupiditate ex repellendus iste eius perferendis quibusdam ad eaque animi reiciendis voluptate? Cupiditate sequi atque minima a. Reprehenderit obcaecati fugiat molestias veritatis, dicta vel, vitae natus impedit sed corporis consectetur aspernatur nostrum dolorem? Nisi illo modi a necessitatibus porro impedit mollitia tempora odit minus voluptatibus accusamus sint ad, rerum et placeat dicta perspiciatis! Fugiat eaque similique rem voluptate! Et, itaque.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam laborum velit, doloremque, at porro autem rerum dignissimos aperiam officiis exercitationem totam temporibus ab quas atque omnis aliquam dolore ratione incidunt dolorem. Quis minima praesentium facilis officiis, exercitationem delectus omnis placeat, cupiditate ex repellendus iste eius perferendis quibusdam ad eaque animi reiciendis voluptate? Cupiditate sequi atque minima a. Reprehenderit obcaecati fugiat molestias veritatis, dicta vel, vitae natus impedit sed corporis consectetur aspernatur nostrum dolorem? Nisi illo modi a necessitatibus porro impedit mollitia tempora odit minus voluptatibus accusamus sint ad, rerum et placeat dicta perspiciatis! Fugiat eaque similique rem voluptate! Et, itaque.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam laborum velit, doloremque, at porro autem rerum dignissimos aperiam officiis exercitationem totam temporibus ab quas atque omnis aliquam dolore ratione incidunt dolorem. Quis minima praesentium facilis officiis, exercitationem delectus omnis placeat, cupiditate ex repellendus iste eius perferendis quibusdam ad eaque animi reiciendis voluptate? Cupiditate sequi atque minima a. Reprehenderit obcaecati fugiat molestias veritatis, dicta vel, vitae natus impedit sed corporis consectetur aspernatur nostrum dolorem? Nisi illo modi a necessitatibus porro impedit mollitia tempora odit minus voluptatibus accusamus sint ad, rerum et placeat dicta perspiciatis! Fugiat eaque similique rem voluptate! Et, itaque.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam laborum velit, doloremque, at porro autem rerum dignissimos aperiam officiis exercitationem totam temporibus ab quas atque omnis aliquam dolore ratione incidunt dolorem. Quis minima praesentium facilis officiis, exercitationem delectus omnis placeat, cupiditate ex repellendus iste eius perferendis quibusdam ad eaque animi reiciendis voluptate? Cupiditate sequi atque minima a. Reprehenderit obcaecati fugiat molestias veritatis, dicta vel, vitae natus impedit sed corporis consectetur aspernatur nostrum dolorem? Nisi illo modi a necessitatibus porro impedit mollitia tempora odit minus voluptatibus accusamus sint ad, rerum et placeat dicta perspiciatis! Fugiat eaque similique rem voluptate! Et, itaque.</p>
+      <div>
+        <Link to="/">Home</Link>
+      </div>
+      <div>
+        <Link to="/about">About</Link>
+      </div>
+      <div>
+        <Link to="/contact">Contact</Link>
+      </div>
+    </div>
+  )
+}
+
+export default Blogs

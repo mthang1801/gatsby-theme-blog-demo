@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    // create gatsby-transition
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/layouts/index.jsx`),
+      },
+    },
+    // create loading
+    `gatsby-plugin-nprogress`
+  ],
 }
